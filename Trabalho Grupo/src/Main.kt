@@ -5,9 +5,9 @@ fun main() {
     val expenseManager =  ExpenseManager()
 
 
-    expenseManager.newTransaction("01/01/2023",TransactionType.EXPENSE,"Almoçarada",774.99,"Comi que nem uma besta!")
-    expenseManager.newTransaction("01/01/2023",TransactionType.EXPENSE,"Sobre A Mesa",5.0,"Pensei que fosse mais caro")
-    expenseManager.newTransaction("02/01/2023",TransactionType.INCOME,"Reembolso da Almoçarada",774.99, "Chamei o gregório e devolveram-me a guita")
+    expenseManager.newTransaction("01/01/2023",TransactionType.EXPENSE,"Almoçarada",774.99,"Comi no melhor restaurante!")
+    expenseManager.newTransaction("01/01/2023",TransactionType.EXPENSE,"Sobremesa",5.0,"Baba de camelo")
+    expenseManager.newTransaction("02/01/2023",TransactionType.INCOME,"Reembolso da Almoçarada",774.99, "Oferta da casa")
 
     val allTransactions = expenseManager.getTransactions()
 
